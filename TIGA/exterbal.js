@@ -1,0 +1,1 @@
+alert('Haloo Ini kode program js external')

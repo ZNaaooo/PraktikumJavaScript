@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>While</title>
+  </head>
+  <body>
+    <script>
+      var ulangi = confirm("Apakah Anda Mau Menggulangi ?");
+      var counter = 0;
+
+      while (ulangi) {
+        var jawab = confirm("Harus kah kita menggulangi ?");
+        counter++;
+        if (jawab == false) {
+          ulangi = false;
+        }
+      }
+
+      document.write("Perulangan Sudah dilakukan sebanyak " + counter + "Kali");
+    </script>
+  </body>
+</html>

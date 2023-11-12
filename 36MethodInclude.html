@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INCLUDE</title>
+  </head>
+  <body>
+    <script>
+      var minum = ["Energen", "Dancow", "Flag", "IndoMilk"];
+      // apakah dancow ada di dalam array minum?
+      var adaDancow = minum.includes("Dancow");
+
+      document.write(adaDancow); //true
+
+      //apakah ada nesle?
+      var adaNesle = minum.includes("Nesle");
+
+      document.write(adaNesle); // false
+    </script>
+  </body>
+</html>
